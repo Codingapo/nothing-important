@@ -1,0 +1,22 @@
+{
+  "name": "thehacker-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "srt-to-vtt": "^1.1.0",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.9.7",
+    "firebase-admin": "^12.0.0"
+  }
+}
