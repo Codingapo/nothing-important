@@ -268,6 +268,8 @@ app.get("/api/clean", async (req, res) => {
       saDrama: ["sa drama"],
       western: ["western"],
       anime:["anime"],
+      popular: ["popular"],
+          hot: ["hot short tv"],
        horror: ["horror"],
       action: ["action movies"],
       trending: ["trending"],
