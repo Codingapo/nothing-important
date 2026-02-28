@@ -264,12 +264,13 @@ app.get("/api/clean", async (req, res) => {
       );
     // Define your categories and keywords
     const categories = {
-   
+    saDrama: ["sa-drama"],
            western: ["western"],
            anime:["anime"],
       trending: ["trending"],
       hollywood: ["hollywood"],
       bollywood: ["Bollywood"],
+          tRomance: ["teen romance"],
      nollywood: ["nollywood"],
       kDrama: ["k-drama"],
       cDrama: ["c-drama"],
