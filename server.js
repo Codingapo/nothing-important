@@ -269,6 +269,7 @@ app.get("/api/clean", async (req, res) => {
       western: ["western"],
       anime:["anime"],
        horror: ["horror"],
+      action: ["action movies"],
       trending: ["trending"],
       adventure: ["adventure"],
       tRomance: ["teen romance"],
