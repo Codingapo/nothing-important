@@ -68,7 +68,7 @@ app.post("/api/register-user", async (req, res) => {
 
 app.get("/version.json", (req, res) => {
   res.json({
-    latest_version: "1.1",
+    latest_version: "1.2",
     update_url: "https://moviewatchtv.fun/download",
     force_update: true
   });
