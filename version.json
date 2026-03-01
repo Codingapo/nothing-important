@@ -1,0 +1,5 @@
+{
+  "latest_version": "1.1",
+  "update_url": "https://yourwebsite.com/app-release.apk",
+  "force_update": true
+}
