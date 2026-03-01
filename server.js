@@ -65,6 +65,14 @@ app.post("/api/register-user", async (req, res) => {
     res.status(500).json({ error: "Database error" });
   }
 });
+
+app.get("/version.json", (req, res) => {
+  res.json({
+    latest_version: "1.1",
+    update_url: "https://moviewatchtv.fun/download",
+    force_update: true
+  });
+});
 // API: Check subscription status
 app.get("/api/check-subscription", async (req, res) => {
   const { email } = req.query;
